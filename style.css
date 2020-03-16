@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #eceef1;
+}
+
+header div {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sign-up-button {
+    border-radius: 4px;
+    background: #0077C5;;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: normal;
+    height: 34px;
+    width: 100px;
+    border: 1px solid #4c4c4c;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.header-text {
+    margin-top: 10px;
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+}
+
+.main {
+    height: 850px;
+    width: 100%;
+    background: #eceef1;
+}
+
+.logo-bar {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    position: relative;
+    top: 60px;
+}
+
+.logo img {
+    height: 35px;
+}
+
+.links-bar {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.links-bar div {
+    color: #708090;
+}
+
+.links-bar img {
+    height: 25px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos div {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.mint-img {
+    margin-right: 5px;
+}
+
+.quickbooks-img {
+    margin-right: 5px;
+}
+
+.turbotax-img {
+    margin-right: 5px;
+}
+
+.mint-text {
+    margin-right: 10px;
+}
+
+.quickbooks-text {
+    margin-right: 10px;
+}
+
+.turbotax-text {
+    margin-right: 10px;
+}
+
+.form-bar {
+    width: 100%;
+    height: 825;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-body {
+    background: white;
+    width: 400px;
+    height: 600px;
+    border: 1px solid lightgray;
+    position: relative;
+}
+
+.form-top {
+    text-align: center;
+}
+
+.create-msg {
+    margin-top: 25px;
+    color: gray;
+    font-size: 20px;
+}
+
+.learnmore-msg {
+    margin-top: 15px;
+    color: gray;
+}
+
+.learnmore-msg #msg {
+    font-size: 12px;
+}
+
+.learnmore-msg #link {
+    font-size: 10px;
+}
+
+
+.form-middle {
+    height: 250px;
+}
+
+form {
+    width: 320px;
+    margin: 0 auto;
+}
+
+form p {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+form div {
+    margin-top: 20px;
+}
+
+input {
+    width: 320px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+label {
+    color: gray;
+    font-size: 14px;
+}
+
+.form-bottom {
+    text-align: center;
+}
+
+.create-btn {
+    margin-top: 20px;
+}
+
+.create-btn button {
+    border-radius: 4px;
+    background: #0077C5;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: normal;
+    height: 40px;
+    width: 320px;
+    border: 1px solid #4c4c4c;
+}
+
+.terms {
+    width: 300px;
+    overflow-wrap: break-word;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.terms div {
+    display: inline-block;
+    font-size: 12px;
+    font-style: italic;
+    color: gray;
+}
+
+.recaptcha {
+    background: #eceef1;
+    width: 100%;
+    height: 50px;
+    color: gray;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.bottom {
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.bottom a {
+    color: gray;
+}
+
+.bottom-links {
+    margin-top: 20px;
+}
+
+.bottom-text {
+    margin-top: 5px;
+}
+
+.bottom-text p {
+    margin-top: 5px;
+}
+
+.privacy-settings {
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    width: 120px;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 50px;
+}
